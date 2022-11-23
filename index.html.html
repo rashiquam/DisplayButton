@@ -1,0 +1,21 @@
+<body>
+    <p>Hello KMIT</p>
+    <div id="div1">
+     <button onclick="Func()">Check</button>
+    </div>
+    <script>
+       
+    function Func() {
+      var x = document.createElement("div");
+      var y = document.createTextNode("NGIT");
+      var n = document.createElement("br");
+      x.appendChild(y);
+      x.appendChild(n);
+      var y1 = document.createTextNode("NGIT");
+      x.appendChild(y1);
+      var z = document.getElementById("div1");
+      document.body.insertBefore(x,z);  
+    }
+    </script>
+    
+</body>
